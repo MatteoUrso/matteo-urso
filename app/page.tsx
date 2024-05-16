@@ -1,5 +1,6 @@
+import { Button } from "@headlessui/react";
 import Link from "next/link";
 
 export default function Home() {
-  return <div className="prose dark:prose-invert"></div>;
+  return <div className="w-full"></div>;
 }

@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import "@radix-ui/colors/gray.css";
+@import "@radix-ui/colors/gray-dark.css";
+@import "@radix-ui/colors/gray-alpha.css";
+@import "@radix-ui/colors/gray-dark-alpha.css";
+
+@layer base {
+  :root {
+    --bg: var(--gray-1);
+  }
+
+  body {
+    overflow-x: hidden;
+    background-color: var(--bg);
+  }
+}

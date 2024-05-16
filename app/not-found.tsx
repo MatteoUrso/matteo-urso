@@ -1,20 +1,21 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "404 | Brian Ruiz",
+  title: "404 | Matteo Urso",
   description: "Uh oh! This page does not exist",
 };
 
 export default function NotFound() {
-  <div className="flex flex-col gap-2">
-    <h1 className="text-3xl font-bold tracking-tight text-primary">404</h1>
-    <p className="text-secondary">
-      Uh oh! This page does not exists, maybe you clicked an old link or
-      misspelled. Please try again…
-    </p>
-    <div className="h-2" />
-    {/* <Link href="/" underline>
-      Return home
-    </Link> */}
-  </div>;
+  return (
+    <div className="h-screen flex items-center justify-center flex-col">
+      <p className="text-9xl font-sans font-bold md:text-[300px] mb-4">
+        <span className="text-primary">4</span>
+        <span className="text-secondary">0</span>
+        <span className="text-primary">4</span>
+      </p>
+      <p className="text-3xl font-bold italic md:text-5xl font-mono mb-10">
+        Pagina non trovata!
+      </p>
+    </div>
+  );
 }
