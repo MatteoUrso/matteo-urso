@@ -30,10 +30,8 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`}>
       <body className={`width-full antialiase`}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <Navigation />
-          <main>{children}</main>
-        </ThemeProvider>
+        {/* <Navigation /> */}
+        {children}
         <Analytics />
       </body>
     </html>
