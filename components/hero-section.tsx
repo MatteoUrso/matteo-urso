@@ -11,10 +11,17 @@ export default function HeroSection() {
     <div className="min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between">
       <div className="space-y-10 text-center lg:text-left">
         <h1 className="text-4xl lg:text-7xl font-bold text-primary">
-          Ciao 👋, Sono un
+          Hello 👋, I&apos;m
           <br />
           <TypeAnimation
-            sequence={["Web Developer", 1000, "Mobile Developer", 1000]}
+            sequence={[
+              "Matteo Urso",
+              1000,
+              "Web Developer",
+              1000,
+              "Mobile Developer",
+              1000,
+            ]}
             wrapper="span"
             speed={50}
             repeat={Infinity}
@@ -22,9 +29,7 @@ export default function HeroSection() {
           />
         </h1>
         <p className="md:w-96 text-lg text-secondary">
-          Sono uno sviluppatore web e mobile appassionato di tecnologia e di
-          tutto ciò che riguarda il mondo del software. Sono sempre alla ricerca
-          di nuove sfide e di nuovi progetti da realizzare.
+          Based in Cremona, Italy. I am a Web Developer and Mobile Developer who
         </p>
         <Link
           href="mailto:matteourso100@gmail.com"
@@ -34,13 +39,13 @@ export default function HeroSection() {
         </Link>
       </div>
       <div className="rounded-full w-72 h-72 relative bg-quaternary">
-        {/* <Image
+        <Image
           src="/images/hero_image.png"
           alt="Hero Image"
           width={300}
           height={300}
           className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-        /> */}
+        />
       </div>
       {/* <div className="w-72 h-72 space-y-3 -rotate-[30deg] relative">
         <div className="flex gap-3 translate-x-8">
