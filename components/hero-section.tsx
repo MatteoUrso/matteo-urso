@@ -10,7 +10,7 @@ export default function HeroSection() {
   return (
     <div className="min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between">
       <div className="space-y-10 text-center lg:text-left">
-        <h1 className="text-4xl lg:text-7xl font-bold text-primary">
+        <h1 className="text-4xl lg:text-7xl font-bold">
           Hello 👋, I&apos;m
           <br />
           <TypeAnimation
@@ -28,44 +28,27 @@ export default function HeroSection() {
             className="underline underline-offset-8 decoration-green-500"
           />
         </h1>
-        <p className="md:w-96 text-lg text-secondary">
+        <p className="md:w-96 text-lg">
           Based in Cremona, Italy. I am a Web Developer and Mobile Developer who
+          loves to create beautiful and functional applications.
         </p>
         <Link
           href="mailto:matteourso100@gmail.com"
           className="inline-block group"
         >
-          <Title text="Contattami 📧" />
+          <Title text="Contact Me 📧" />
         </Link>
       </div>
-      <div className="rounded-full w-72 h-72 relative bg-quaternary">
+      <div className="rounded-full w-72 h-72 relative bg-muted">
         <Image
           src="/images/hero_image.png"
           alt="Hero Image"
           width={300}
           height={300}
           className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+          priority
         />
       </div>
-      {/* <div className="w-72 h-72 space-y-3 -rotate-[30deg] relative">
-        <div className="flex gap-3 translate-x-8">
-          <div className="w-32 h-32 rounded-2xl bg-green-500" />
-          <div className="w-32 h-32 rounded-full bg-indigo-500" />
-        </div>
-        <div className="flex gap-3 -translate-x-8">
-          <div className="w-32 h-32 rounded-2xl bg-indigo-500" />
-          <div className="w-32 h-32 rounded-full bg-green-500" />
-        </div>
-        <div className="glow absolute top-[40%] right-1/2 -z-10" />
-        <div className="absolute top-[5%] right-[20%]">
-          <Image
-            src="/images/hero_image.png"
-            alt="Hero Image"
-            width={300}
-            height={300}
-          />
-        </div>
-      </div> */}
     </div>
   );
 }

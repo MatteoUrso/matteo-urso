@@ -1,4 +1,4 @@
-import { cn } from "@/utils/cn";
+import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 import { IconType } from "react-icons";
@@ -41,12 +41,10 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-          <div className="rounded-md w-full p-4 overflow-hidden bg-primary group-hover:ring-2 ring-green-500 relative x-20 transition-all duration-500">
+          <div className="rounded-md w-full p-4 overflow-hidden bg-background group-hover:ring-2 ring-green-500 relative x-20 transition-all duration-500">
             <div className="py-10 z-50 relative space-y-5">
               <Icon className="w-8 h-8 mx-auto" />
-              <p className="text-2xl font-bold text-center text-secondary">
-                {title}
-              </p>
+              <p className="text-2xl font-bold text-center">{title}</p>
             </div>
           </div>
         </div>

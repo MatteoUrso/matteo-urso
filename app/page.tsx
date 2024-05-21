@@ -1,6 +1,6 @@
 import Footer from "@/components/footer";
 import HeroSection from "@/components/hero-section";
-import NavBar from "@/components/nav-bar";
+import NavBar from "@/components/navbar";
 import Projects from "@/components/projects";
 import Skills from "@/components/skills";
 import React from "react";

@@ -5,8 +5,7 @@ My personal website, built with Next.js and Tailwind CSS.
 ## Tech Stack
 
 - [Tailwind CSS](https://tailwindcss.com) (Styling)
-- [Radix Primitives](https://www.radix-ui.com/primitives) (Headless UI components)
-- [Radix UI Colors](https://www.radix-ui.com/colors) (Color system)
+- [Shadcn/ui](https://ui.shadcn.com/) (Shadcn UI components)
 - [Framer Motion](https://www.framer.com/motion/) (Animations)
 
 ## Getting Started
