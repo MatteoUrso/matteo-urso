@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "404 | Matteo Urso",
+  title: "404",
   description: "Uh oh! This page does not exist",
 };
 
@@ -14,7 +14,7 @@ export default function NotFound() {
         <span className="text-primary">4</span>
       </p>
       <p className="text-3xl font-bold italic md:text-5xl font-mono mb-10">
-        Pagina non trovata!
+        Page Not Found
       </p>
     </div>
   );
