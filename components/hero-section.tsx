@@ -33,7 +33,7 @@ export default function HeroSection() {
           loves to create beautiful and functional applications.
         </p>
         <Link
-          href="mailto:matteourso100@gmail.com"
+          href="mailto:matteo-urso@matteo-urso.it"
           className="inline-block group"
         >
           <Title text="Contact Me 📧" />
