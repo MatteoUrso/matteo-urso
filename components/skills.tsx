@@ -14,7 +14,7 @@ import {
 } from "react-icons/si";
 
 export default function Skills() {
-  const projects = [
+  const skills = [
     {
       title: "React",
       Icon: SiReact,
@@ -55,7 +55,7 @@ export default function Skills() {
         text="Skills 🛠"
         className="flex flex-col items-center justify-center -rotate-6"
       />
-      <HoverEffect items={projects} />
+      <HoverEffect items={skills} />
     </div>
   );
 }
